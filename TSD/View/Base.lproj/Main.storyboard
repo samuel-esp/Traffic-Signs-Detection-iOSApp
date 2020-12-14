@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8M2-Tr-cn6">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Credits-->
+        <scene sceneID="uZt-8a-wLT">
+            <objects>
+                <viewController id="kQn-nB-GCZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lWG-Un-lWm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="AuZ-Ir-ASc"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Credits" id="aoh-3n-8m2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qyX-54-wGL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2774" y="985"/>
+        </scene>
+        <!--Detect-->
+        <scene sceneID="Qy9-CO-a9p">
+            <objects>
+                <viewController id="Oqm-ct-zt4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IwF-Wm-Odk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1zc-jw-HT4">
+                                <rect key="frame" x="20" y="179" width="374" height="370"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wPm-LC-rky">
+                                <rect key="frame" x="74" y="688" width="266" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Detect">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="LGh-31-8Ib" kind="presentation" id="GD3-Er-0EQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lyd-z6-Ohw">
+                                <rect key="frame" x="74" y="590" width="264" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Select Photo ">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Yom-s7-VlR"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Detect" id="sQ7-rx-fAg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MNv-1e-dir" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="486.95652173913049" y="964.95535714285711"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="xYl-sK-dyI">
+            <objects>
+                <viewController id="LGh-31-8Ib" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hoA-Na-kA9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="JG7-m5-baU"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="49f-Bg-m2c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="487" y="1764"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="nlv-b0-5wO">
+            <objects>
+                <tabBarController id="8M2-Tr-cn6" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="zHs-2E-JcG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Egs-aG-rCi" kind="relationship" relationship="viewControllers" id="Pd6-re-gc2"/>
+                        <segue destination="pbn-C9-kkA" kind="relationship" relationship="viewControllers" id="bdZ-mJ-goy"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9xA-1m-cVe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1687" y="-554"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="DEr-a2-vH3">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="pbn-C9-kkA" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" image="graduationcap.fill" catalog="system" id="xnr-iS-C6B"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="glm-q8-UWA">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="kQn-nB-GCZ" kind="relationship" relationship="rootViewController" id="sAN-8J-3My"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EMZ-Vc-NLo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2774" y="229"/>
+        </scene>
+        <!--Detect-->
+        <scene sceneID="oRe-2h-jt9">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Egs-aG-rCi" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Detect" image="video.fill" catalog="system" id="vTS-a0-bzl"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="r21-PM-S68">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Oqm-ct-zt4" kind="relationship" relationship="rootViewController" id="qIO-7b-Fi8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qv0-kU-q8s" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="486.95652173913049" y="239.73214285714283"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="graduationcap.fill" catalog="system" width="128" height="108"/>
+        <image name="video.fill" catalog="system" width="128" height="82"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
