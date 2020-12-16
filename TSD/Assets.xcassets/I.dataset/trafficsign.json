@@ -1,0 +1,252 @@
+[
+  {
+    "0": "Strada Deformata",
+    "name": "stradadeformata"
+  },
+  {
+    "1": "Strada Con Dossi",
+    "name": "dossi"
+  },
+  {
+    "2": "Strada Sdruccievole",
+    "File": "sdruccievole"
+  },  
+  {
+    "3": "Curva Pericolosa SX",
+    "name": "curvasx"
+  },  
+  {
+    "4": "Curva Pericolosa DX",
+    "name": "curvadx"
+  },
+  {
+    "5": "Doppia Curva SX->DX",
+    "name": "sxdx"
+  },
+  {
+    "6": "Doppia Curva DX-SX",
+    "name": "dxsx"
+  },
+  {
+    "7": "Attraversamento Bambini",
+    "name": "bambini"
+  },
+  {
+    "8": "Attraversamento Ciclabile",
+    "name": "ciclabile"
+  },
+  {
+    "9": "Attraversamento Animali",
+    "File": "animali"
+  },  
+  {
+    "10": "Pericolo Lavori",
+    "name": "lavori"
+  },  
+  {
+    "11": "Semaforo",
+    "name": "semaforo"
+  },
+  {
+    "12": "Passaggio A Livello",
+    "name": "treno"
+  },
+  {
+    "13": "Pericolo Generico",
+    "name": "pericolo"
+  },
+  {
+    "14": "Restringimento Carreggiata",
+    "name": "restrcarr"
+  },
+  {
+    "15": "Restringimento Carreggiata SX",
+    "name": "restrsx"
+  },
+  {
+    "16": "Restringimento Carreggiata DX",
+    "File": "restrdx"
+  },  
+  {
+    "17": "Incrocio Con Precedenza",
+    "name": "incrp"
+  },  
+  {
+    "18": "Intersezione Con Precedenza a Destra",
+    "name": "x"
+  },
+  {
+    "19": "Dare Precedenza",
+    "name": "darep"
+  },
+  {
+    "20": "Dare Precedenza Nei Sensi Unici",
+    "name": "darepsu"
+  },
+  {
+    "21": "Stop",
+    "name": "stop"
+  },
+  {
+    "22": "Senso Vietato",
+    "name": "sensovietato"
+  },
+  {
+    "23": "Divieto Transito Per Bici",
+    "File": "nobici"
+  },  
+  {
+    "24": "Divieto Transito Per Veicoli Con Peso Superiore",
+    "name": "nopeso"
+  },  
+  {
+    "25": "Divieto Transito Per Automezzi Pesanti",
+    "name": "notir"
+  },
+  {
+    "26": "Divieto Transito Altezza Superiore",
+    "name": "nohsup2"
+  },
+  {
+    "27": "Divieto Transito Altezza Superiore",
+    "name": "nohsup3"
+  },
+  {
+    "28": "Divieto Transito",
+    "name": "notransito"
+  },
+  {
+    "29": "Divieto Di Svolta DX",
+    "name": "nodx"
+  },
+  {
+    "30": "Divieto Di Svolta SX",
+    "File": "nosx"
+  },  
+  {
+    "31": "Divieto Di Sorpasso",
+    "name": "nosorp"
+  },  
+  {
+    "32": "Limite Velocità",
+    "name": "lim"
+  },
+  {
+    "33": "Percorso Pedonale e Ciclabile",
+    "name": "pedecic"
+  },
+  {
+    "34": "Procedere Diritto",
+    "name": "diritto"
+  },
+  {
+    "35": "Svoltare",
+    "name": "svoltare"
+  },
+  {
+    "36": "Svoltare o Proseguire Diritto",
+    "name": "svdiritto"
+  },
+  {
+    "37": "Rotonda",
+    "File": "animali"
+  },  
+  {
+    "38": "Zona Ciclabile",
+    "name": "cic"
+  },  
+  {
+    "39": "Zona Ciclabile Contigua A Pedonale",
+    "name": "ciclacont"
+  },
+  {
+    "40": "Divieto Di Sosta",
+    "name": "sosta"
+  },
+  {
+    "41": "Divieto Di Fermata",
+    "name": "fermata"
+  },
+  {
+    "42": "Divieto Di Sosta A Tempo (Versione Europea 1)",
+    "name": "sostat"
+  },
+  {
+    "43": "Divieto Di Sosta A Tempo (Versione Europea 2)",
+    "name": "sostat2"
+  },
+  {
+    "44": "Diritto Di Precendeza Senso Unico Alternato",
+    "File": "predsens"
+  },  
+  {
+    "45": "Zona Di Sosta",
+    "name": "parcheggio"
+  },  
+  {
+    "46": "Zona Di Sosta Riservata A Diversamente Abili",
+    "name": "divab"
+  },
+  {
+    "47": "Zona Di Sosta Riservata Ad Auto (Versione Inglese)",
+    "name": "pauto"
+  },
+  {
+    "48": "Zona Di Sosta Riservata Ad Auto (Versione Inglese)",
+    "name": "ptir"
+  },
+  {
+    "49": "Zona Di Sosta Riservata Ad Auto (Versione Inglese)",
+    "name": "pbus"
+  },
+  {
+    "50": "Zona Parcheggio Turistico (Versione Inglese)",
+    "name": "ptour"
+  },
+  {
+    "51": "Zona Residenziale (Versione Europea)",
+    "File": "resi"
+  },  
+  {
+    "52": "Fine Zona Residenziale (Versione Europea)",
+    "name": "noresi"
+  },  
+  {
+    "53": "Procedere Diritto (Versione Inglese)",
+    "name": "altdiritto"
+  },
+  {
+    "54": "Strada Senza Uscita",
+    "name": "noexit"
+  },
+  {
+    "55": "Fine Lavori In Corso (Versione Europea)",
+    "name": "nowork"
+  },
+  {
+    "56": "Attraversamento Pedonale (Versione Inglese)",
+    "name": "pedcross"
+  },
+  {
+    "57": "Attraversamento Ciclabile (Versione Asiatica)",
+    "File": "cyclecross"
+  },  
+  {
+    "58": "Parcheggio A Destra",
+    "name": "pright"
+  },  
+  {
+    "59": "Dossi Stradali (Versione Francese e Belga)",
+    "name": "bump"
+  },
+  {
+    "60": "Fine Diritto Precedenza",
+    "name": "noprecgiall"
+  },
+  {
+    "61": "Diritto Precedenza",
+    "name": "precgiall"
+  },
+]
+  
+ 

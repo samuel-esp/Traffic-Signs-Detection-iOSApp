@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,34 +15,44 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="unH-XQ-OzD">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="unH-XQ-OzD">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="launchscreen" translatesAutoresizingMaskIntoConstraints="NO" id="DqO-kJ-CwI">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchscreen" translatesAutoresizingMaskIntoConstraints="NO" id="DqO-kJ-CwI">
                                         <rect key="frame" x="60" y="165" width="294" height="263"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="263" id="aKi-jq-JDy"/>
+                                        </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rF0-oe-10e">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TRAFFIC SIGN DETECTION" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rF0-oe-10e">
                                         <rect key="frame" x="26" y="456" width="362" height="52"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <attributedString key="attributedText">
-                                            <fragment content="TRAFFIC SIGN DETECTION">
-                                                <attributes>
-                                                    <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                    <font key="NSFont" size="28" name="Baloo2-ExtraBold"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                </attributes>
-                                            </fragment>
-                                        </attributedString>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="52" id="881-hJ-pGE"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.40392156862745099" green="0.70588235294117641" blue="0.92941176470588238" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="DqO-kJ-CwI" firstAttribute="leading" secondItem="unH-XQ-OzD" secondAttribute="leading" constant="60" id="0Xi-mj-PXZ"/>
+                                    <constraint firstItem="rF0-oe-10e" firstAttribute="top" secondItem="DqO-kJ-CwI" secondAttribute="bottom" constant="28" id="XWJ-J5-tG5"/>
+                                    <constraint firstItem="DqO-kJ-CwI" firstAttribute="top" secondItem="unH-XQ-OzD" secondAttribute="top" constant="165" id="dXq-2T-QAB"/>
+                                    <constraint firstAttribute="trailing" secondItem="rF0-oe-10e" secondAttribute="trailing" constant="26" id="h78-Rf-mar"/>
+                                    <constraint firstItem="rF0-oe-10e" firstAttribute="leading" secondItem="unH-XQ-OzD" secondAttribute="leading" constant="26" id="hen-vP-kU3"/>
+                                    <constraint firstAttribute="trailing" secondItem="DqO-kJ-CwI" secondAttribute="trailing" constant="60" id="w62-bd-Bss"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.4039215686" green="0.70588235290000001" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="unH-XQ-OzD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="A21-fU-B00"/>
+                            <constraint firstItem="unH-XQ-OzD" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Nqd-ts-zsL"/>
+                            <constraint firstItem="unH-XQ-OzD" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="XL3-5y-ElM"/>
+                            <constraint firstItem="unH-XQ-OzD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="and-Qo-qre"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -53,8 +62,5 @@
     </scenes>
     <resources>
         <image name="launchscreen" width="512" height="512"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>

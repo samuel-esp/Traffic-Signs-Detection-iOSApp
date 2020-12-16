@@ -1,0 +1,315 @@
+{
+"data" : [
+  {
+    "id": "0",
+    "title": "Strada Deformata",
+    "imagename": "stradadeformata"
+  },
+  {
+    "id": "1",
+    "title": "Pericolo Dossi",
+    "imagename": "dossi"
+  },
+  {
+    "id": "2",
+    "title": "Strada Sdruccievole",
+    "imagename": "sdruccievole"
+  },  
+  {
+    "id": "3",
+    "title": "Curva Pericolosa SX",
+    "imagename": "curvasx"
+  },  
+  {
+    "id": "4",
+    "title": "Curva Pericolosa DX",
+    "imagename": "curvadx"
+  },
+  {
+    "id": "5",
+    "title": "Doppia Curva SX->DX",
+    "imagename": "sxdx"
+  },
+  {
+    "id": "6",
+    "title": "Doppia Curva DX-SX",
+    "imagename": "dxsx"
+  },
+  {
+    "id": "7",
+    "title": "Attraversamento Bambini",
+    "imagename": "bambini"
+  },
+  {
+    "id": "8",
+    "title": "Attraversamento Ciclabile",
+    "imagename": "ciclabile"
+  },
+  {
+    "id": "9",
+    "title": "Attraversamento Animali",
+    "imagename": "animali"
+  },  
+  {
+    "id": "10",
+    "title": "Pericolo Lavori",
+    "imagename": "lavori"
+  },  
+  {
+    "id": "11",
+    "title": "Semaforo",
+    "imagename": "semaforo"
+  },
+  {
+    "id": "12",
+    "title": "Passaggio A Livello",
+    "imagename": "treno"
+  },
+  {
+    "id": "13",
+    "title": "Pericolo Generico",
+    "imagename": "pericolo"
+  },
+  {
+    "id": "14",
+    "title": "Restringimento Carreggiata",
+    "imagename": "restrcarr"
+  },
+  {
+    "id": "15",
+    "title": "Restringimento Carreggiata SX",
+    "imagename": "restrsx"
+  },
+  {
+    "id": "16",
+    "title": "Restringimento Carreggiata DX",
+    "imagename": "restrdx"
+  },  
+  {
+    "id": "17",
+    "title": "Incrocio Con Precedenza",
+    "imagename": "incrp"
+  },  
+  {
+    "id": "18",
+    "title": "Intersezione Con Precedenza a Destra",
+    "imagename": "x"
+  },
+  {
+    "id": "19",
+    "title": "Dare Precedenza",
+    "imagename": "darep"
+  },
+  {
+    "id": "20",
+    "title": "Dare Precedenza Nei Sensi Unici",
+    "imagename": "darepsu"
+  },
+  {
+    "id": "21",
+    "title": "Stop",
+    "imagename": "stop"
+  },
+  {
+    "id": "22",
+    "title": "Senso Vietato",
+    "imagename": "sensovietato"
+  },
+  {
+    "id": "23",
+    "title": "Divieto Transito Per Bici",
+    "imagename": "nobici"
+  },  
+  {
+    "id": "24",
+    "title": "Divieto Transito Per Veicoli Con Peso Superiore",
+    "imagename": "nopeso"
+  },  
+  {
+    "id": "25",
+    "title": "Divieto Transito Per Automezzi Pesanti",
+    "imagename": "notir"
+  },
+  {
+    "id": "26",
+    "title": "Divieto Transito Altezza Superiore",
+    "imagename": "nohsup2"
+  },
+  {
+    "id": "27",
+    "title": "Divieto Transito Altezza Superiore",
+    "imagename": "nohsup3"
+  },
+  {
+    "id": "28",
+    "title": "Divieto Di Transito",
+    "imagename": "notransito"
+  },
+  {
+    "id": "29",
+    "title": "Divieto Di Svolta DX",
+    "imagename": "nodx"
+  },
+  {
+    "id": "30",
+    "title": "Divieto Di Svolta SX",
+    "imagename": "nosx"
+  },  
+  {
+    "id": "31",
+    "title": "Divieto Di Sorpasso",
+    "imagename": "nosorp"
+  },  
+  {
+    "id": "32",
+    "title": "Limite Velocità",
+    "imagename": "lim"
+  },
+  {
+    "id": "33",
+    "title": "Percorso Pedonale e Ciclabile",
+    "imagename": "pedecic"
+  },
+  {
+    "id": "34",
+    "title": "Procedere Diritto",
+    "imagename": "diritto"
+  },
+  {
+    "id": "35",
+    "title": "Svoltare",
+    "imagename": "svoltare"
+  },
+  {
+    "id": "36",
+    "title": "Svoltare o Proseguire Diritto",
+    "imagename": "svdiritto"
+  },
+  {
+    "id": "37",
+    "title": "Rotonda",
+    "imagename": "animali"
+  },  
+  {
+    "id": "38",
+    "title": "Zona Ciclabile",
+    "imagename": "cic"
+  },  
+  {
+    "id": "39",
+    "title": "Zona Ciclabile Contigua A Pedonale",
+    "imagename": "ciclacont"
+  },
+  {
+    "id": "40",
+    "title": "Divieto Di Sosta",
+    "imagename": "sosta"
+  },
+  {
+    "id": "41",
+    "title": "Divieto Di Fermata",
+    "imagename": "fermata"
+  },
+  {
+    "id": "42",
+    "title": "Divieto Di Sosta A Tempo (Versione Europea 1)",
+    "imagename": "sostat"
+  },
+  {
+    "id": "43",
+    "title": "Divieto Di Sosta A Tempo (Versione Europea 2)",
+    "imagename": "sostat2"
+  },
+  {
+    "id": "44",
+    "title": "Diritto Di Precendeza Senso Unico Alternato",
+    "imagename": "predsens"
+  },  
+  {
+    "id": "45",
+    "title": "Zona Di Sosta",
+    "imagename": "parcheggio"
+  },  
+  {
+    "id": "46",
+    "title": "Zona Di Sosta Riservata A Diversamente Abili",
+    "imagename": "divab"
+  },
+  {
+    "id": "47",
+    "title": "Zona Di Sosta Riservata Ad Auto (Versione Inglese)",
+    "imagename": "pauto"
+  },
+  {
+    "id": "48",
+    "title": "Zona Di Sosta Riservata Ad Auto (Versione Inglese)",
+    "imagename": "ptir"
+  },
+  {
+    "id": "49",
+    "title": "Zona Di Sosta Riservata Ad Auto (Versione Inglese)",
+    "imagename": "pbus"
+  },
+  {
+    "id": "50",
+    "title": "Zona Parcheggio Turistico (Versione Inglese)",
+    "imagename": "ptour"
+  },
+  {
+    "id": "51",
+    "title": "Zona Residenziale (Versione Europea)",
+    "imagename": "resi"
+  },  
+  {
+    "id": "52",
+    "title": "Fine Zona Residenziale (Versione Europea)",
+    "imagename": "noresi"
+  },  
+  {
+    "id": "53",
+    "title": "Procedere Diritto (Versione Inglese)",
+    "imagename": "altdiritto"
+  },
+  {
+    "id": "54",
+    "title": "Strada Senza Uscita",
+    "imagename": "noexit"
+  },
+  {
+    "id": "55",
+    "title": "Fine Lavori In Corso (Versione Europea)",
+    "imagename": "nowork"
+  },
+  {
+    "id": "56",
+    "title": "Attraversamento Pedonale (Versione Inglese)",
+    "imagename": "pedcross"
+  },
+  {
+    "id": "57",
+    "title": "Attraversamento Ciclabile (Versione Asiatica)",
+    "imagename": "cyclecross"
+  },  
+  {
+    "id": "58",
+    "title": "Parcheggio A Destra",
+    "imagename": "pright"
+  },  
+  {
+    "id": "59",
+    "title": "Dossi Stradali (Versione Francese e Belga)",
+    "imagename": "bump"
+  },
+  {
+    "id": "60",
+    "title": "Fine Diritto Precedenza",
+    "imagename": "noprecgiall"
+  },
+  {
+    "id": "61",
+    "title": "Diritto Precedenza",
+    "imagename": "precgiall"
+  },
+]
+
+}
