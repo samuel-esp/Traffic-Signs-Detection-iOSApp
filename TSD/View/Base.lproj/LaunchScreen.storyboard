@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina5_5" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -12,35 +12,23 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="unH-XQ-OzD">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchscreen" translatesAutoresizingMaskIntoConstraints="NO" id="DqO-kJ-CwI">
-                                        <rect key="frame" x="60" y="165" width="294" height="263"/>
+                                        <rect key="frame" x="60" y="202" width="255" height="263"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="263" id="aKi-jq-JDy"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TRAFFIC SIGN DETECTION" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rF0-oe-10e">
-                                        <rect key="frame" x="26" y="456" width="362" height="52"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="52" id="881-hJ-pGE"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.40392156862745099" green="0.70588235294117641" blue="0.92941176470588238" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="DqO-kJ-CwI" firstAttribute="leading" secondItem="unH-XQ-OzD" secondAttribute="leading" constant="60" id="0Xi-mj-PXZ"/>
-                                    <constraint firstItem="rF0-oe-10e" firstAttribute="top" secondItem="DqO-kJ-CwI" secondAttribute="bottom" constant="28" id="XWJ-J5-tG5"/>
-                                    <constraint firstItem="DqO-kJ-CwI" firstAttribute="top" secondItem="unH-XQ-OzD" secondAttribute="top" constant="165" id="dXq-2T-QAB"/>
-                                    <constraint firstAttribute="trailing" secondItem="rF0-oe-10e" secondAttribute="trailing" constant="26" id="h78-Rf-mar"/>
-                                    <constraint firstItem="rF0-oe-10e" firstAttribute="leading" secondItem="unH-XQ-OzD" secondAttribute="leading" constant="26" id="hen-vP-kU3"/>
+                                    <constraint firstItem="DqO-kJ-CwI" firstAttribute="top" secondItem="unH-XQ-OzD" secondAttribute="top" constant="202" id="dXq-2T-QAB"/>
                                     <constraint firstAttribute="trailing" secondItem="DqO-kJ-CwI" secondAttribute="trailing" constant="60" id="w62-bd-Bss"/>
                                 </constraints>
                             </view>

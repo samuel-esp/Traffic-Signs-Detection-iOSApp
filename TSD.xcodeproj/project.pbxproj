@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		3622410B924E6130DACD6A86 /* Pods_TSD_TSDUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E1D9183AE92261A76B2C53 /* Pods_TSD_TSDUITests.framework */; };
-		402C39CE2587B7BF00733142 /* SelectImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402C39CD2587B7BF00733142 /* SelectImageViewController.swift */; };
+		400C1B9825922741003985B8 /* traffic_signs_detector.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 400C1B9725922741003985B8 /* traffic_signs_detector.tflite */; };
+		400C1B9C25923A9C003985B8 /* ModelDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400C1B9B25923A9C003985B8 /* ModelDataHandler.swift */; };
+		400C1BA8259246A1003985B8 /* tflabels.txt in Resources */ = {isa = PBXBuildFile; fileRef = 400C1BA7259246A1003985B8 /* tflabels.txt */; };
+		400C1BB125924FA8003985B8 /* traffic_signs_detector3.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 400C1BB025924FA8003985B8 /* traffic_signs_detector3.tflite */; };
 		402C39D32587CED700733142 /* CropViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 402C39D22587CED700733142 /* CropViewController.framework */; };
 		402C39D82587CFC000733142 /* Pods_TSD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 352EE95F531CA55452B23D61 /* Pods_TSD.framework */; };
 		402C39D92587CFC000733142 /* Pods_TSD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 352EE95F531CA55452B23D61 /* Pods_TSD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		40401248258824D400D3152E /* Toucan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40401247258824D400D3152E /* Toucan.framework */; };
-		404CE5BA258913360078A1CB /* detection.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 404CE5B9258913360078A1CB /* detection.mlmodel */; };
 		407E3B54258A243B00E95833 /* DatasetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407E3B53258A243B00E95833 /* DatasetTableViewController.swift */; };
 		407E3B5E258A280C00E95833 /* Segnale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407E3B5D258A280C00E95833 /* Segnale.swift */; };
 		407E3B62258A36C600E95833 /* trafficsign.json in Resources */ = {isa = PBXBuildFile; fileRef = 407E3B61258A36C600E95833 /* trafficsign.json */; };
@@ -27,6 +29,7 @@
 		40AD14C925877694001A8B89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40AD14C725877694001A8B89 /* LaunchScreen.storyboard */; };
 		40AD14D425877694001A8B89 /* TSDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AD14D325877694001A8B89 /* TSDTests.swift */; };
 		40AD14DF25877694001A8B89 /* TSDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AD14DE25877694001A8B89 /* TSDUITests.swift */; };
+		40CAA988258CFE9500C7B6B5 /* SelectImageViewController.swift 16-07-36-646.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CAA987258CFE9500C7B6B5 /* SelectImageViewController.swift 16-07-36-646.swift */; };
 		A10B8ABA9F215A048D00B2B7 /* Pods_TSDTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA35770A4F12DA47CCBE8C2 /* Pods_TSDTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,10 +68,12 @@
 		0BA35770A4F12DA47CCBE8C2 /* Pods_TSDTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TSDTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3361B712D74342E5EA0DA541 /* Pods-TSDTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSDTests.release.xcconfig"; path = "Target Support Files/Pods-TSDTests/Pods-TSDTests.release.xcconfig"; sourceTree = "<group>"; };
 		352EE95F531CA55452B23D61 /* Pods_TSD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TSD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		402C39CD2587B7BF00733142 /* SelectImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectImageViewController.swift; sourceTree = "<group>"; };
+		400C1B9725922741003985B8 /* traffic_signs_detector.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = traffic_signs_detector.tflite; sourceTree = "<group>"; };
+		400C1B9B25923A9C003985B8 /* ModelDataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDataHandler.swift; sourceTree = "<group>"; };
+		400C1BA7259246A1003985B8 /* tflabels.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tflabels.txt; sourceTree = "<group>"; };
+		400C1BB025924FA8003985B8 /* traffic_signs_detector3.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = traffic_signs_detector3.tflite; sourceTree = "<group>"; };
 		402C39D22587CED700733142 /* CropViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CropViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40401247258824D400D3152E /* Toucan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Toucan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		404CE5B9258913360078A1CB /* detection.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = detection.mlmodel; sourceTree = "<group>"; };
 		407E3B53258A243B00E95833 /* DatasetTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatasetTableViewController.swift; sourceTree = "<group>"; };
 		407E3B5D258A280C00E95833 /* Segnale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segnale.swift; sourceTree = "<group>"; };
 		407E3B61258A36C600E95833 /* trafficsign.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = trafficsign.json; sourceTree = "<group>"; };
@@ -88,6 +93,7 @@
 		40AD14DA25877694001A8B89 /* TSDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40AD14DE25877694001A8B89 /* TSDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSDUITests.swift; sourceTree = "<group>"; };
 		40AD14E025877694001A8B89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40CAA987258CFE9500C7B6B5 /* SelectImageViewController.swift 16-07-36-646.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SelectImageViewController.swift 16-07-36-646.swift"; sourceTree = "<group>"; };
 		44A89CDD08AC24DCBBCE88D6 /* Pods-TSD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSD.debug.xcconfig"; path = "Target Support Files/Pods-TSD/Pods-TSD.debug.xcconfig"; sourceTree = "<group>"; };
 		4F965C327D2AED1A66D7755D /* Pods-TSD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSD.release.xcconfig"; path = "Target Support Files/Pods-TSD/Pods-TSD.release.xcconfig"; sourceTree = "<group>"; };
 		63F18E5F5FB5DA5FBBB9F7D4 /* Pods-TSD-TSDUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSD-TSDUITests.debug.xcconfig"; path = "Target Support Files/Pods-TSD-TSDUITests/Pods-TSD-TSDUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -142,10 +148,13 @@
 		4062BA262587A7D800CA10E4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				400C1BB025924FA8003985B8 /* traffic_signs_detector3.tflite */,
+				400C1BA7259246A1003985B8 /* tflabels.txt */,
+				400C1B9725922741003985B8 /* traffic_signs_detector.tflite */,
 				407E3B61258A36C600E95833 /* trafficsign.json */,
-				404CE5B9258913360078A1CB /* detection.mlmodel */,
 				407E3B5D258A280C00E95833 /* Segnale.swift */,
 				407E3B6E258A468C00E95833 /* Segnali.swift */,
+				400C1B9B25923A9C003985B8 /* ModelDataHandler.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -165,7 +174,7 @@
 				40AD14C025877693001A8B89 /* ViewController.swift */,
 				40AD14BE25877693001A8B89 /* SceneDelegate.swift */,
 				40AD14BC25877693001A8B89 /* AppDelegate.swift */,
-				402C39CD2587B7BF00733142 /* SelectImageViewController.swift */,
+				40CAA987258CFE9500C7B6B5 /* SelectImageViewController.swift 16-07-36-646.swift */,
 				407E3B53258A243B00E95833 /* DatasetTableViewController.swift */,
 				407E3B72258A48FA00E95833 /* DatasetTableViewCell.swift */,
 			);
@@ -347,8 +356,11 @@
 			files = (
 				407E3B62258A36C600E95833 /* trafficsign.json in Resources */,
 				40AD14C925877694001A8B89 /* LaunchScreen.storyboard in Resources */,
+				400C1B9825922741003985B8 /* traffic_signs_detector.tflite in Resources */,
 				40AD14C625877694001A8B89 /* Assets.xcassets in Resources */,
 				40AD14C425877693001A8B89 /* Main.storyboard in Resources */,
+				400C1BA8259246A1003985B8 /* tflabels.txt in Resources */,
+				400C1BB125924FA8003985B8 /* traffic_signs_detector3.tflite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,15 +488,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				404CE5BA258913360078A1CB /* detection.mlmodel in Sources */,
-				402C39CE2587B7BF00733142 /* SelectImageViewController.swift in Sources */,
 				407E3B54258A243B00E95833 /* DatasetTableViewController.swift in Sources */,
 				407E3B6F258A468C00E95833 /* Segnali.swift in Sources */,
 				40AD14C125877693001A8B89 /* ViewController.swift in Sources */,
 				407E3B73258A48FA00E95833 /* DatasetTableViewCell.swift in Sources */,
+				40CAA988258CFE9500C7B6B5 /* SelectImageViewController.swift 16-07-36-646.swift in Sources */,
 				40AD14BD25877693001A8B89 /* AppDelegate.swift in Sources */,
 				407E3B5E258A280C00E95833 /* Segnale.swift in Sources */,
 				40AD14BF25877693001A8B89 /* SceneDelegate.swift in Sources */,
+				400C1B9C25923A9C003985B8 /* ModelDataHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -671,7 +683,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.samuelesposito.TSD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -691,7 +703,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.samuelesposito.TSD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

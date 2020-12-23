@@ -70,8 +70,8 @@ class DatasetTableViewController: UITableViewController {
         if let array = segnali{
         print("segnali presente")
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath) as! DatasetTableViewCell
-        //cell.cellImage = UIImage(array.data[indexPath.row].name)
-            cell.cellTitle.text = array.data[indexPath.row].title
+        cell.cellImage.image = UIImage(named: array.data[indexPath.row].imagename)
+        cell.cellTitle.text = array.data[indexPath.row].title
         return cell
         }
         print("printing other cell")
