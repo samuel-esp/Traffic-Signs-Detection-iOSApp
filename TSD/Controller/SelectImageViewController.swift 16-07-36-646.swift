@@ -25,6 +25,7 @@ class SelectImageViewController: UIViewController, UIImagePickerControllerDelega
     var modelDataHandler: ModelDataHandler?
     let modelInfo: FileInfo = (name: "traffic_signs_detector3", extension: "tflite")
     let labelsInfo: FileInfo = (name: "tflabels", extension: "txt")
+    var prediction: Response?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -111,60 +112,51 @@ class SelectImageViewController: UIViewController, UIImagePickerControllerDelega
     }
     
     @IBAction func detectButtonPressed(_ sender: Any) {
-        
+
         let croppingalert = UIAlertController(title: "⚠️ Detect Alert ⚠️", message: "In order to correctly predict your data let the app know exactly where the traffic sign is located in the photo", preferredStyle: .alert)
         self.present(croppingalert, animated: true, completion: nil)
         DispatchQueue.main.asyncAfter(deadline: .now() + 2.7, execute: {
         croppingalert.dismiss(animated: true, completion: nil)
         self.presentCropViewController()
             DispatchQueue.main.asyncAfter(deadline: .now() + 3.7, execute: {
-                /*let resizedImage = Toucan.Resize.resizeImage(self.croppedImage!, size: CGSize(width: 48, height: 48), fitMode: .clip)*/
-                DispatchQueue.main.asyncAfter(deadline: .now() + 4.7, execute: {
-                    do{
-                        
-                        
-                        if let resized = self.croppedImage{
-                        print("valuto il modello")
-                            guard let pixelBuffer = self.buffer(from: resized) else {
-                                        fatalError()
+                DispatchQueue.main.asyncAfter(deadline: .now() + 1.0, execute: {
+                        if let cropped = self.croppedImage{
+                            let data = cropped.pngData()
+                            let base64 = data?.base64EncodedString()
+                            let params = ["image": base64]
+                            let request = AF.request("http://0.0.0.0:5000/predict", method: .post, parameters: params, encoding: JSONEncoding.default, headers: nil, interceptor: nil, requestModifier: nil)
+                                request.responseJSON { response in
+                                print("risposta ricevuta")
+                                do{
+                                if let jsonData = response.data{
+                                self.prediction = try JSONDecoder().decode(Response.self, from: jsonData)
+                                print(self.prediction?.inference)
+                                self.performSegue(withIdentifier: "resultViewController", sender: self)
                                     }
-                            let result = self.modelDataHandler?.runModel(onFrame: pixelBuffer)
-                            print(result!.inferences)
-                        }
-                        else{
-                            print("error with resized")
-                        }
-                    }catch{
-                        print(error.localizedDescription)
+                                }catch{
+                                    print(error.localizedDescription)
+                                }
+                                
                     }
+                }
             })
         })
     })
-
         
-    }
-    
-
-    func myResultsMethod(request: VNRequest, error: Error?) {
-        guard let results = request.results as? [VNClassificationObservation]
-            else { fatalError("huh") }
-        for classification in results {
-            print(classification.identifier, // the scene label
-                  classification.confidence)
-        }
-
-    }
+}
     
     
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        if(segue.identifier == "resultViewController"){
+            let resultController = segue.destination as! ResultViewController
+            resultController.prediction = prediction
+        }
     }
-    */
+    
 
 }
 
@@ -310,3 +302,15 @@ self.presentCropViewController()
 })
 
 */
+
+
+
+/*func myResultsMethod(request: VNRequest, error: Error?) {
+    guard let results = request.results as? [VNClassificationObservation]
+        else { fatalError("huh") }
+    for classification in results {
+        print(classification.identifier, // the scene label
+              classification.confidence)
+    }
+
+}*/

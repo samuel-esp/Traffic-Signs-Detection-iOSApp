@@ -16,6 +16,8 @@
 		402C39D82587CFC000733142 /* Pods_TSD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 352EE95F531CA55452B23D61 /* Pods_TSD.framework */; };
 		402C39D92587CFC000733142 /* Pods_TSD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 352EE95F531CA55452B23D61 /* Pods_TSD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		40401248258824D400D3152E /* Toucan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40401247258824D400D3152E /* Toucan.framework */; };
+		405062A42593E0AB0073296C /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405062A32593E0AB0073296C /* Response.swift */; };
+		405062A82593EE5C0073296C /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405062A72593EE5C0073296C /* ResultViewController.swift */; };
 		407E3B54258A243B00E95833 /* DatasetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407E3B53258A243B00E95833 /* DatasetTableViewController.swift */; };
 		407E3B5E258A280C00E95833 /* Segnale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407E3B5D258A280C00E95833 /* Segnale.swift */; };
 		407E3B62258A36C600E95833 /* trafficsign.json in Resources */ = {isa = PBXBuildFile; fileRef = 407E3B61258A36C600E95833 /* trafficsign.json */; };
@@ -74,6 +76,8 @@
 		400C1BB025924FA8003985B8 /* traffic_signs_detector3.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = traffic_signs_detector3.tflite; sourceTree = "<group>"; };
 		402C39D22587CED700733142 /* CropViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CropViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40401247258824D400D3152E /* Toucan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Toucan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		405062A32593E0AB0073296C /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		405062A72593EE5C0073296C /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		407E3B53258A243B00E95833 /* DatasetTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatasetTableViewController.swift; sourceTree = "<group>"; };
 		407E3B5D258A280C00E95833 /* Segnale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segnale.swift; sourceTree = "<group>"; };
 		407E3B61258A36C600E95833 /* trafficsign.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = trafficsign.json; sourceTree = "<group>"; };
@@ -155,6 +159,7 @@
 				407E3B5D258A280C00E95833 /* Segnale.swift */,
 				407E3B6E258A468C00E95833 /* Segnali.swift */,
 				400C1B9B25923A9C003985B8 /* ModelDataHandler.swift */,
+				405062A32593E0AB0073296C /* Response.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -177,6 +182,7 @@
 				40CAA987258CFE9500C7B6B5 /* SelectImageViewController.swift 16-07-36-646.swift */,
 				407E3B53258A243B00E95833 /* DatasetTableViewController.swift */,
 				407E3B72258A48FA00E95833 /* DatasetTableViewCell.swift */,
+				405062A72593EE5C0073296C /* ResultViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -492,11 +498,13 @@
 				407E3B6F258A468C00E95833 /* Segnali.swift in Sources */,
 				40AD14C125877693001A8B89 /* ViewController.swift in Sources */,
 				407E3B73258A48FA00E95833 /* DatasetTableViewCell.swift in Sources */,
+				405062A42593E0AB0073296C /* Response.swift in Sources */,
 				40CAA988258CFE9500C7B6B5 /* SelectImageViewController.swift 16-07-36-646.swift in Sources */,
 				40AD14BD25877693001A8B89 /* AppDelegate.swift in Sources */,
 				407E3B5E258A280C00E95833 /* Segnale.swift in Sources */,
 				40AD14BF25877693001A8B89 /* SceneDelegate.swift in Sources */,
 				400C1B9C25923A9C003985B8 /* ModelDataHandler.swift in Sources */,
+				405062A82593EE5C0073296C /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
