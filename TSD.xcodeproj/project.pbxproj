@@ -8,10 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3622410B924E6130DACD6A86 /* Pods_TSD_TSDUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E1D9183AE92261A76B2C53 /* Pods_TSD_TSDUITests.framework */; };
-		400C1B9825922741003985B8 /* traffic_signs_detector.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 400C1B9725922741003985B8 /* traffic_signs_detector.tflite */; };
 		400C1B9C25923A9C003985B8 /* ModelDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400C1B9B25923A9C003985B8 /* ModelDataHandler.swift */; };
-		400C1BA8259246A1003985B8 /* tflabels.txt in Resources */ = {isa = PBXBuildFile; fileRef = 400C1BA7259246A1003985B8 /* tflabels.txt */; };
-		400C1BB125924FA8003985B8 /* traffic_signs_detector3.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 400C1BB025924FA8003985B8 /* traffic_signs_detector3.tflite */; };
 		402C39D32587CED700733142 /* CropViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 402C39D22587CED700733142 /* CropViewController.framework */; };
 		402C39D82587CFC000733142 /* Pods_TSD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 352EE95F531CA55452B23D61 /* Pods_TSD.framework */; };
 		402C39D92587CFC000733142 /* Pods_TSD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 352EE95F531CA55452B23D61 /* Pods_TSD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -70,10 +67,7 @@
 		0BA35770A4F12DA47CCBE8C2 /* Pods_TSDTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TSDTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3361B712D74342E5EA0DA541 /* Pods-TSDTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSDTests.release.xcconfig"; path = "Target Support Files/Pods-TSDTests/Pods-TSDTests.release.xcconfig"; sourceTree = "<group>"; };
 		352EE95F531CA55452B23D61 /* Pods_TSD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TSD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		400C1B9725922741003985B8 /* traffic_signs_detector.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = traffic_signs_detector.tflite; sourceTree = "<group>"; };
 		400C1B9B25923A9C003985B8 /* ModelDataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDataHandler.swift; sourceTree = "<group>"; };
-		400C1BA7259246A1003985B8 /* tflabels.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tflabels.txt; sourceTree = "<group>"; };
-		400C1BB025924FA8003985B8 /* traffic_signs_detector3.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = traffic_signs_detector3.tflite; sourceTree = "<group>"; };
 		402C39D22587CED700733142 /* CropViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CropViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40401247258824D400D3152E /* Toucan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Toucan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		405062A32593E0AB0073296C /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
@@ -152,9 +146,6 @@
 		4062BA262587A7D800CA10E4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				400C1BB025924FA8003985B8 /* traffic_signs_detector3.tflite */,
-				400C1BA7259246A1003985B8 /* tflabels.txt */,
-				400C1B9725922741003985B8 /* traffic_signs_detector.tflite */,
 				407E3B61258A36C600E95833 /* trafficsign.json */,
 				407E3B5D258A280C00E95833 /* Segnale.swift */,
 				407E3B6E258A468C00E95833 /* Segnali.swift */,
@@ -362,11 +353,8 @@
 			files = (
 				407E3B62258A36C600E95833 /* trafficsign.json in Resources */,
 				40AD14C925877694001A8B89 /* LaunchScreen.storyboard in Resources */,
-				400C1B9825922741003985B8 /* traffic_signs_detector.tflite in Resources */,
 				40AD14C625877694001A8B89 /* Assets.xcassets in Resources */,
 				40AD14C425877693001A8B89 /* Main.storyboard in Resources */,
-				400C1BA8259246A1003985B8 /* tflabels.txt in Resources */,
-				400C1BB125924FA8003985B8 /* traffic_signs_detector3.tflite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
